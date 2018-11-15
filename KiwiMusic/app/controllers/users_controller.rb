@@ -1,24 +1,27 @@
 class UsersController < ApplicationController
 
   def new
-    #i think this is where you set session token to current session_token
-    #as is new session token, aka they are logged in
+    @user = User.new
+    render :new
   end
 
   def create
-    #i think this is where you add a new user
-    #will prob need to reroute to some other view
-    user = User.new(params[:email, :password_digest])
+    user = User.new(user_params)
     if user.save!
       login!(user)
-      # redirect_to somewhere...
+      redirect_to user_url(user)
     else
       flash.now[:error] = ['oops something went wrong, try again']
     end
   end
 
   def show
+    user = User.find_by(params[:id])
+    render :show
+  end
 
+  def user_params
+    params.require(:user).permit(:email, :password_digest)
   end
 
 end

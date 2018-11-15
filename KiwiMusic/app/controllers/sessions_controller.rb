@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
 
   def new
-    # redirect_to some form to input info
+    redirect_to new_session_url
   end
 
   def create
