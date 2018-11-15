@@ -19,4 +19,9 @@
   <body>
     <%= yield %>
   </body>
+
+  <% if current_user %>
+    <input type="submit" name="log out" value="destroy">
+  <% end %>
+
 </html>
