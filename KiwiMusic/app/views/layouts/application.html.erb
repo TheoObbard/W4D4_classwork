@@ -21,7 +21,13 @@
   </body>
 
   <% if current_user %>
-    <input type="submit" name="log out" value="destroy">
+    <form class="" action="<%= session_url %>" method="post">
+      <input type="hidden" name="_method" value="destroy">
+      <input type="submit" name="" value="log out">
+    </form>
+  <% else %>
+    <a href="/session/new"><input type="submit" value="log in"></a>
   <% end %>
+
 
 </html>

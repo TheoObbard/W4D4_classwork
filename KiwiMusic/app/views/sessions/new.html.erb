@@ -1,4 +1,20 @@
 <p>this would be signin page</p>
 
 <!-- render form for sign in -->
-<%= render "form" %>
+<!-- <%= render "form" %> -->
+
+<form class="" action="<%new_session_url%>" method="post">
+  <input type="hidden" name="_method" value="get">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label>
+    email
+    <input type="text" name="user[email]" value="email">
+  </label>
+  <br>
+  <label>
+    password
+    <input type="text" name="user[password]" value="password">
+  </label>
+  <br>
+  <input type="submit" name="" value="sign in">
+</form>
