@@ -1,6 +1,6 @@
 class User < ApplicationRecord
 
-  after_initialize { ensure_session_token }
+  before_validation :ensure_session_token
 
   def self.generate_session_token
     SecureRandom.urlsafe_base64
