@@ -1,4 +1,4 @@
-<p>kawabunga</p>
+<p>Make An Account</p>
 
 <!-- <%= render "sessions/form" %> -->
 
@@ -6,13 +6,16 @@
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label>
     email
-    <input type="text" name="user[email]" value="email">
+    <input type="text" name="user[email]" value="">
   </label>
   <br>
   <label>
     password
-    <input type="text" name="user[password]" value="password">
+    <input type="text" name="user[password]" value="">
   </label>
   <br>
   <input type="submit" name="" value="sign up">
 </form>
+
+<p>Already a user?</p>
+<a href="/session/new"><input type="submit" value="log in"></a>
