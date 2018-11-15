@@ -4,7 +4,7 @@
     <title>KiwiMusic</title>
 
     <% if current_user %>
-      <%= "Welcome, #{@user.email}" %>
+      <h1><%= "Welcome, #{@user.email}" %></h1>
     <% end %>
 
     <%= csrf_meta_tags %>

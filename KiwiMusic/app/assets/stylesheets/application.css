@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   background-image: url("https://coubsecure-s.akamaihd.net/get/b17/p/coub/simple/cw_timeline_pic/08718560771/552b2622cf2593ce9e0be/big_1509137097_image.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+ }
+
+ p {
+   font: arial;
+   font-size: 12;
+   color: white;
+ }
+
+ h1 {
+   color: white;
+ }
+
+ form {
+   position: center;
+ }
