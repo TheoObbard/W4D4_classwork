@@ -199,3 +199,291 @@ Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:28:39 -0800
 LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
   
 app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:30:20 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:37:31 -0800
+  
+SyntaxError (compile error):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:38:35 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:40:21 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:40:23 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:40:40 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:41:27 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:43:35 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:44:58 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:49:02 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:49:48 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 11:50:32 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:51:12 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:53:54 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:54:08 -0800
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/theoobbard/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:54:15 -0800
+  
+LoadError (Unable to autoload constant ApplicationController, expected /Users/theoobbard/Desktop/W4D4/KiwiMusic/app/controllers/application_controller.rb to define it):
+  
+app/controllers/users_controller.rb:1:in `<main>'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:56:03 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 10.1ms)
+
+
+  
+ActionView::MissingTemplate (Missing template users/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/theoobbard/Desktop/W4D4/KiwiMusic/app/views"
+):
+  
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:56:33 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 5.7ms)
+
+
+  
+ActionView::MissingTemplate (Missing template users/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/theoobbard/Desktop/W4D4/KiwiMusic/app/views"
+):
+  
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:56:38 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template users/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/theoobbard/Desktop/W4D4/KiwiMusic/app/views"
+):
+  
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:56:40 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template users/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/theoobbard/Desktop/W4D4/KiwiMusic/app/views"
+):
+  
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 11:59:48 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 6.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<UsersController:0x007f82eae54ec0>
+Did you mean?  @user):
+    3:   <head>
+    4:     <title>KiwiMusic</title>
+    5: 
+    6:     <% if current_user %>
+    7:       <%= "Welcome, #{current_user.email}" %>
+    8:     <% else %>
+    9:       <%= "You are not signed in!" %>
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__487455908947068829_70100180745480'
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:06:09 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 9.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<UsersController:0x007f82e8c9ce18>
+Did you mean?  @user):
+    3:   <head>
+    4:     <title>KiwiMusic</title>
+    5: 
+    6:     <% if current_user %>
+    7:       <%= "Welcome, #{current_user.email}" %>
+    8:     <% else %>
+    9:       <%= "You are not signed in!" %>
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__487455908947068829_70100129499240'
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:08:44 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<UsersController:0x007f82efde0700>
+Did you mean?  @user):
+    3:   <head>
+    4:     <title>KiwiMusic</title>
+    5: 
+    6:     <% if current_user %>
+    7:       <%= "Welcome, #{current_user.email}" %>
+    8:     <% else %>
+    9:       <%= "You are not signed in!" %>
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__487455908947068829_70100118657540'
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:09:17 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 7.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `find_by' for #<User:0x007f82e8e5bcb8>):
+    3:   <head>
+    4:     <title>KiwiMusic</title>
+    5: 
+    6:     <% if current_user %>
+    7:       <%= "Welcome, #{current_user.email}" %>
+    8:     <% else %>
+    9:       <%= "You are not signed in!" %>
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__487455908947068829_70100114820120'
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:09:25 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 163ms (ActiveRecord: 5.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `users' for #<UsersController:0x007f82e95044c0>
+Did you mean?  users_url
+               users_path
+               @user):
+    3:   <head>
+    4:     <title>KiwiMusic</title>
+    5: 
+    6:     <% if current_user %>
+    7:       <%= "Welcome, #{current_user.email}" %>
+    8:     <% else %>
+    9:       <%= "You are not signed in!" %>
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__487455908947068829_70100179359400'
+app/controllers/users_controller.rb:5:in `new'
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:09:38 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 332ms (Views: 315.4ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:10:07 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:10:16 -0800
+Processing by SessionsController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template sessions/new, application/new with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/theoobbard/Desktop/W4D4/KiwiMusic/app/views"
+):
+  
+app/controllers/sessions_controller.rb:4:in `new'
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:10:31 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:13:04 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 42ms (Views: 35.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:13:27 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.5ms)
+
+

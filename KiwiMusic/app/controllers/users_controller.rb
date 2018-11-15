@@ -6,17 +6,18 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.new(user_params)
-    if user.save!
-      login!(user)
-      redirect_to user_url(user)
+    @user = User.new(user_params)
+    if @user.save!
+      login!(@user)
+      redirect_to user_url(@user)
     else
       flash.now[:error] = ['oops something went wrong, try again']
+      render :new
     end
   end
 
   def show
-    user = User.find_by(params[:id])
+    @user = User.find_by(params[:id])
     render :show
   end
 
